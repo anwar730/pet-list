@@ -1,9 +1,10 @@
 import React from 'react'
 
-function PetCard() {
+function PetCard({eachPet}) {
   return (
     <div>
-      PetCard
+      <h3>{eachPet.email}</h3>
+      <h4>{eachPet.password}</h4>
     </div>
   )
 }
